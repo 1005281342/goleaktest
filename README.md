@@ -1,0 +1,2 @@
+# goleaktest
+go leak testing
