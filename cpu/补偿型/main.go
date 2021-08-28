@@ -75,7 +75,7 @@ func Compensator() {
 func handlerTask(t tTask) {
 	t.FT1 = time.Now().Unix()
 	var d = 16 + rand.Intn(64)
-	time.Sleep(time.Duration(d) * time.Millisecond)
+	//time.Sleep(time.Duration(d) * time.Millisecond)
 	for i := 0; i < d*1024; i++ {
 	}
 	log.Printf("handle task: %+v", t)
